@@ -20,30 +20,6 @@ public:
         Mnogoclen = vect;
     }
 
-    friend ostream& operator << (ostream& os, Polynom P)
-    {
-        vector<Monom> vect = P.Mnogoclen;
-        os << (*vect.begin());
-
-        if (vect.begin() == vect.end())    return os;
-
-        for (vector<Monom>::iterator it = vect.begin() + 1; it != vect.end(); it++)
-        {
-            os << " ";
-            if ((*it).GetCoef() > 0)    os << "+";
-            else    os << "-";
-
-            os << " ";
-            if ((*it).GetDegree() == 0)    os << abs((*it).GetCoef());
-            else
-            {
-                if (abs((*it).GetCoef()) != 1)    os << abs((*it).GetCoef());
-                os << "x";
-                if ((*it).GetDegree() >= 2)    os << "^" << (*it).GetDegree();
-            }
-        }
-        return os;
-    }
 
     void PushMonom (Monom M);
     Polynom operator + (Polynom P);
@@ -55,5 +31,5 @@ public:
 };
 
 Polynom Chebyshev(int n);
-
+ostream& operator << (ostream& os, Polynom P);
 #endif // POLYNOM_H_INCLUDED
