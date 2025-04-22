@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1743727582 source:c:\programming\Максимкины\С++\task_7\main.cpp
+	"POLYNOM.h"
+	<iostream>
+
+1743727582 c:\programming\Максимкины\С++\task_7\polynom.h
+	"MONOM.h"
+	<vector>
+	<algorithm>
+
+1743727582 c:\programming\Максимкины\С++\task_7\monom.h
+	<iostream>
+
+1743727582 source:c:\programming\Максимкины\С++\task_7\monom.cpp
+	"MONOM.h"
+	<iostream>
+
+1743727582 source:c:\programming\Максимкины\С++\task_7\polynom.cpp
+	"POLYNOM.h"
+	<iostream>
+
+1745184930 source:c:\users\кошька\onedrive\desktop\ПЕРЕСДАЧА\task_7\main.cpp
+	"POLYNOM.h"
+	<iostream>
+
+1745185805 c:\users\кошька\onedrive\desktop\ПЕРЕСДАЧА\task_7\polynom.h
+	"MONOM.h"
+	<vector>
+	<algorithm>
+
+1745170059 c:\users\кошька\onedrive\desktop\ПЕРЕСДАЧА\task_7\monom.h
+	<iostream>
+
+1745167448 source:c:\users\кошька\onedrive\desktop\ПЕРЕСДАЧА\task_7\monom.cpp
+	"MONOM.h"
+	<iostream>
+
+1745184900 source:c:\users\кошька\onedrive\desktop\ПЕРЕСДАЧА\task_7\polynom.cpp
+	"POLYNOM.h"
+	<iostream>
+
